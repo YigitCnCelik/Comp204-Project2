@@ -123,7 +123,7 @@ public class GameGrid {
       return tileMatrix[row][col] != null;
    }
    
-
+   //clear rows
    public void clearFullRows() {
 	    // Check all rows starting from the top of rows
 	    for (int i = 18 - 1; i >= 0; i--) {
