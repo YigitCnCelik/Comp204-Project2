@@ -159,7 +159,7 @@ public class GameGrid {
 	    }
 	}
    
-   
+   // gather same box
    public void gatherSameBox() {
 		// Check all rows starting from the top of rows
 		for (int j = 0; j < 12; j++) {
